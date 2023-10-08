@@ -1,0 +1,36 @@
+@charset "utf -8";
+
+body {
+    font-family: "游明朝", serif;
+    background-image: url(img/images.jpeg);
+}
+
+img {
+    width: 50%;
+    width : 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+table {
+    background-color: rgba(248, 248, 255, 0.5);
+    margin: 20px;
+}
+
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 16px;
+    margin: 20px;
+    padding: 50px;
+}
+
+caption {
+    font-size: 60px;
+    margin: 40px;
+}
+
+
