@@ -1,0 +1,22 @@
+@charset "utf -8";
+
+div {
+    margin: 40px;
+    padding: 20px;
+}
+
+.bg-gray {
+    background-color: rgb(225, 205, 205);
+}
+
+.text-orange {
+    color: rgb(235, 104, 4);
+}
+
+.bg-yellow {
+    background-color: rgb(244, 244, 98);
+}
+
+.text-red {
+    color: red;
+}
