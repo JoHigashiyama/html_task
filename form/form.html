@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+    <h1>会員登録</h1>
+    <p>以下の情報を入力し、確認ボタンを押してください。</p>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>お客様情報</legend>
+            性：<input type="text" name="last_name"><br>
+            名：<input type="text" name="first_name"><br>
+
+            住所：<input type="text" name="address"><br>
+
+            メールアドレス：<input type="email" name="email"><br>
+
+            電話番号：<input type="tel" name="tel"><br>
+
+            生年月日：<input type="date" name="birthday"><br>
+
+            年齢：<input type="number" name="age" min="0" max="150"> 歳<br>
+
+            性別：<label><input type="radio" name="gender" value="man">男</label>
+            <label><input type="radio" name="gender" value="woman">女</label>
+            <label><input type="radio" name="gender" value="other">その他</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>パスワード</legend>
+            英数字8文字以上で入力してください。<br>
+            <input type="password" name="password"><br>
+
+            確認のためもう一度入力してください。<br>
+            <input type="password" name="password_confirm">
+        </fieldset>
+
+        <fieldset>
+            <legend>ご希望メールマガジン</legend>
+            <label><input type="checkbox" name="magazine" value="IT">IT</label>
+            <label><input type="checkbox" name="magazine" value="sales">営業</label>
+            <label><input type="checkbox" name="magazine" value="CustomerService">接客</label>
+            <label><input type="checkbox" name="magazine" value="medical">医療</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>ご利用規約</legend>
+            <a href="term.html" target="_blank">ご利用規約を確認する</a><br>
+            <label><input type="checkbox" name="agreement" value="agree">規約に同意する</label>
+        </fieldset>
+
+        <button type="reset">内容をクリアする</button>
+        <button type="submit">確認する</button>
+    </form>
+</body>
+
+</html>
