@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-size: 16px;
+}
+
+table, th, td {
+    border: solid 3px white;
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+
+th {
+    background-color: rgb(66, 62, 190, 0.6);
+    color: white;
+    padding: 15px;
+}
+
+td {
+    background-color: rgb(156, 184, 243, 0.2);
+    padding: 15px;
+}
+
+c {
+    font-size: 0.7rem;
+    background-color: red;
+    border-radius: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+b {
+    font-size: 0.7rem;
+    margin: 1px;
+}
+
+.bg-gray {
+    background-color: rgb(81, 77, 77, 0.2);
+}
+
+p {
+    font-size: 1.3rem;
+}
