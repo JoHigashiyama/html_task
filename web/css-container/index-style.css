@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+main {
+    background-color: whitesmoke;
+    margin: 1rem;
+    width: 20%;
+    border-radius: 10px;
+}
+main h3 {
+    padding: 0.4rem;
+    margin-left: 3px;
+}
+
+main table th {
+    padding: 0.5rem;
+    text-align: left;
+}

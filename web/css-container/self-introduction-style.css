@@ -1,0 +1,40 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    padding-right: 40px;
+}
+
+
+fieldset {
+    background-color: white;
+    margin: 1.5rem 20%;
+    width: 60%;
+}
+
+fieldset p {
+    text-align: left;
+}
+
+.mark-list li {
+    border-bottom: solid 2px black;
+    margin: 0 auto;
+    width: 65%;
+}
+
+main {
+    margin: 1rem auto;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+}
+
+main h1 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 5px rgb(160, 160, 231) double;
+}

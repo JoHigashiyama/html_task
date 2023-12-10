@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+main {
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    margin: 0.7rem auto;
+    border-radius: 10px;
+}
+
+.container-title {
+    display: flex;
+}
+
+.container-title h1 {
+    width: 50%;
+}
+
+.container-title a {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.container-title a:hover {
+    background-color: aqua;
+}
+
+table {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+tr {
+    background-color: rgba(235, 210, 210, 0.21);
+}
+
+tr + tr {
+    border-bottom: 1px solid white;
+}
+
+th {
+    width: 30%;
+    border-right: 1px solid white;
+    text-align: left;
+}
+
+td {
+    width: 70%;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+}
+
+h3 {
+    margin-top: 0.5rem;
+    border-bottom: 5px orange double;
+}
+
+.techArea {
+    padding: 0.5rem 1rem;
+}
+
+.techAreaItem {
+    border-bottom: 5px rgb(10, 207, 118) double;
+}
+
+.techArea p {
+    margin: 0.5rem;
+}
+
+.techArea div {
+    display: flex;
+}
+
+fieldset + fieldset {
+    margin-top: 0.5rem;
+}
+
+fieldset p {
+    display: block;
+    width: 25%;
+}
