@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+header img + img {
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    margin: 0 0 auto auto;
+}
+
+.nav a {
+    margin: 0 0 auto 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
