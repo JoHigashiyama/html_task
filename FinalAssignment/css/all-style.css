@@ -2,16 +2,22 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 header {
     height: 200px;
-    background-color: aqua;
-    padding: 10px;
+    background-color: rgb(51, 121, 197);
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+    height: 70px;
 }
 
 header img + img {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .flex {
@@ -23,7 +29,30 @@ header img + img {
 }
 
 .nav a {
-    margin: 0 0 auto 10px;
     font-size: 20px;
     text-decoration: none;
+    color: white;
+}
+
+.nav a+a {
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+footer {
+    text-align: center;
+}
+
+header, footer {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+main {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 30px 0;
+    margin: 0 80px;
 }
