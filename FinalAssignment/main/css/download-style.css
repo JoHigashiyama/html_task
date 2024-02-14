@@ -1,0 +1,82 @@
+.box {
+    margin: 0 40px 50px 40px;
+}
+
+.img {
+    width: 440px;
+    height: 260px;
+    background-color: #fbfbff;
+    border-radius: 10px;
+    margin: 20px 30px 20px 0;
+    box-shadow: 0px 5px 15px 5px rgb(100, 100, 100, 0.35);
+}
+
+.img img {
+    width: 400px;
+    height: 225px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.titleBig::before {
+    content: "";
+    border-left: 7px solid #00b4d8;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+
+.detail h2,a {
+    margin-left: 10px;
+}
+
+.title::before {
+    content: "";
+    border-left: 7px solid #88d498;
+    margin-left: 0;
+    padding-right: 10px;
+}
+
+main a {
+    display: block;
+    border: 2px solid #FF3232;
+    background-color: #FF3232;
+    color: white;
+    text-decoration: none;
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+main a:hover {
+    color: #FF3232;
+    background-color: white;
+}
+
+th {
+    width: 30%;
+    text-align: center;
+    height: 50px;
+}
+
+td {
+    width: 70%;
+    padding-left: 10px;
+}
+
+th, td, table {
+    border: 1px solid #495057;
+    border-collapse: collapse;
+    background-color: #fbfbff;
+}
+
+table {
+    margin: 10px;
+}
+
+.titleBig {
+    margin-top: 50px;
+    margin-bottom: 0;
+}

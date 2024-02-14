@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: auto;
+}
+
+header {
+    height: 70px;
+    padding: 20px;
+}
+
+.nintendo {
+    width: 70px;
+    height: 70px;
+}
+
+header img {
+    width: 120px;
+    height: 70px;
+}
+
+header img + img {
+    margin-left: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    margin: 0 0 auto auto;
+}
+
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a+a {
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+footer {
+    text-align: center;
+}
+
+header, footer {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+main {
+    background-color: #f5f1ed;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    padding: 30px 0;
+    margin: 0 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer {
+    margin: 10px auto;
+}
+
+.frame {
+    width: 95%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #f7a072;
+}
+
+#page_top {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+
+.active {
+    color: #857885;
+}
+
+.noactive {
+    color: #000000;
+}
+
+.co-red {
+    color: #ce4257;
+}
+
+.co-blue {
+    color: #00a8e8;
+}
+
+.fw-bo {
+    font-weight: bold;
+}

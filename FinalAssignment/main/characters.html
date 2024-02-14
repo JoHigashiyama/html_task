@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all-style.css">
+    <link rel="stylesheet" href="css/characters-style.css">
+    <title>ポケットモンスター~スカーレット・バイオレット~|Characters</title>
+    <script src="script/chara-main.js" defer></script>
+    <script src="script/chara-teacher.js" defer></script>
+    <script src="script/chara-star.js" defer></script>
+    <script src="script/chara-leader.js" defer></script>
+    <script src="script/chara-dlc1.js" defer></script>
+    <script src="script/chara-dlc2.js" defer></script>
+
+    <!-- header、footerのフォント　 -->
+    <!-- ヘッダー、フッター -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <img src="img/nintendo_switch.svg" alt="nintendo_switch" class="nintendo">
+            <img src="img/scarlet-logo.png" alt="スカーレット">
+            <img src="img/violet-logo.png" alt="バイオレット">
+            <div class="flex nav">
+                <a href="home.html" class="noactive">ホーム</a>
+                <a href="story.html" class="noactive">ストーリー</a>
+                <a href="characters.html" class="active">キャラクター</a>
+                <a href="dlc.html" class="noactive">DLC</a>
+                <a href="download.html" class="noactive">ダウンロード</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="page_top">
+        <a href="#"><img src="img/back.ico" alt="back"></a>
+    </div>
+
+    <main>
+        <div class="frame"></div>
+        <div id="main">
+            <h1>メインキャラクター</h1>
+            <div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="main-photo" src="img-characters/main/nemo.jpg" >
+                    </div>
+                    <div class="status">
+                        <h2 id="main-name">ネモ</h2>
+                        <p id="main-detail">
+                            明るく元気な性格で、とにかくポケモンバトルが大好き<br>
+                            チャンピオンランクの称号を持っており、<br>
+                            バトルの腕前は折り紙付きの凄腕ポケモントレーナー<br>
+                            しかし、モンスターボールを投げるのは苦手という意外な一面を持つ
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="main-back">back</button>
+                    <button type="button" id="main-next">next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="teacher">
+            <h1>学園の先生</h1>
+            <div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="teacher-photo" src="img-characters/teacher/kuraberu.jpg">
+                    </div>
+                    <div class="status">
+                        <h2 id="teacher-name">クラベル校長</h2>
+                        <p id="teacher-detail">アカデミーの校長を務めている<br>
+                            入学したばかりの主人公にいろいろなことを教えてくれる<br>
+                            時には厳しく、時には親身に接してくれることも<br>
+                            オーリム博士/フトゥー博士とは友人のようだ
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="teacher-back">back</button>
+                    <button type="button" id="teacher-next">next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="star">
+            <h1>スター団</h1><div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="star-photo" src="img-characters/star/pi-nya.jpg">
+                    </div>
+                    <div class="status">
+                        <h2 id="star-name">ピーニャ</h2>
+                        <p id="star-detail">
+                            スター団「チーム・セギン」のボス<br>
+                            計算高い性格で、また頭が切れるとのこと<br>
+                            ラッパーのジムリーダー・ライムのファンで、<br>
+                            彼女をリスペクトしてる部分も見られる
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="star-back">back</button>
+                    <button type="button" id="star-next">next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="leader">
+            <h1>ジムリーダー・四天王・トップ</h1>
+            <div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="leader-photo" src="img-characters/leader/kaede.jpg">
+                    </div>
+                    <div class="status">
+                        <h2 id="leader-name">カエデ</h2>
+                        <p id="leader-detail">
+                            セルクルタウンのジムリーダー<br>
+                            普段はパティスリー『ムクロジ』の店長を務めているパティシエールであり、<br>
+                            作ったお菓子はポケモンたちにも振る舞っている
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="leader-back">back</button>
+                    <button type="button" id="leader-next">next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="dlc1">
+            <h1><span>DLC</span>ゼロの秘宝~前編~:碧の仮面</h1>
+            <div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="dlc1-photo" src="img-characters/dlc1/suguri.jpg">
+                    </div>
+                    <div class="status">
+                        <h2 id="dlc1-name">スグリ</h2>
+                        <p id="dlc1-detail">
+                            キタカミ出身のブルーベリー学園の生徒<br>
+                            人見知りな性格をしているが、、負けず嫌いであり、<br>
+                            主人公のライバルとして、めげずに何度もバトルに挑む<br>
+                            キタカミの里に伝承に出てくる鬼のカッコよさに、強いあこがれを持っている
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="dlc1-back">back</button>
+                    <button type="button" id="dlc1-next">next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="dlc2">
+            <h1><span>DLC</span>ゼロの秘宝~後編~:藍の円盤</h1>
+            <div class="box">
+                <div class="flex">
+                    <div class="photoglaphes">
+                        <img decoding="async" id="dlc2-photo" src="img-characters/dlc2/kakitubata.jpg">
+                    </div>
+                    <div class="status">
+                        <h2 id="dlc2-name">カキツバタ</h2>
+                        <p id="dlc2-detail">
+                            ブルベリーグの四天王の一人<br>
+                            また、元チャンピオンである<br>
+                            授業にはあまり出ないらしく、3回留年している噂がある<br>
+                            緩い感じの口調で話すが、<br>
+                            ドライかつ空気の読めない発言で周囲の空気を冷やす事もある
+                        </p>
+                    </div>
+                </div>
+                <div class="flex page">
+                    <button type="button" id="dlc2-back">back</button>
+                    <button type="button" id="dlc2-next">next</button>
+                </div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </main>
+
+    <footer>
+        <small>(C) 2024 Higashiyama-Jo</small>
+    </footer>
+</body>
+
+</html>
